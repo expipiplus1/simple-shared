@@ -5,7 +5,7 @@ set -e # Abort on error
 
 # Build the library and install to the executable directory
 cd library
-mkdir build
+mkdir -p build
 cd build
 cmake ../ -DCMAKE_INSTALL_PREFIX=../../executable -Wno-dev
 cmake --build . --target install
