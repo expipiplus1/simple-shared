@@ -31,7 +31,7 @@ If you built the executable with Cabal it will be located at `executable/.cabal-
 
 ### Finding the shared library
 
-In order to find `libadd.so` on Linux it's sufficient to add the directory containing libadd.so to LD_LIBRARY_PATH.
+In order to find `libadd.so` on Linux it's sufficient to add the directory containing `libadd.so` to `LD_LIBRARY_PATH`. 
 
 In order to find `add.dll` on Windows it's sufficient for it to be in either the current directory or the same directory as the executable.
 
