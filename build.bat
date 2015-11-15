@@ -7,7 +7,4 @@ cmake --build . --target install
 
 :: Build the executable
 cd ..\..\executable
-cabal sandbox init
-cabal install --extra-lib-dirs=. --extra-include-dirs=.
-
-
+stack build
