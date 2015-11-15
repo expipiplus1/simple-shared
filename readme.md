@@ -54,3 +54,12 @@ Other platforms
 It's possible to build the shared library using Mingw's gcc on Windows, follow the commands in `build.bat` but replace the first cmake command with `cmake ../ -G "Unix Makefiles" -DCMAKE_C_COMPILER=/path/to/mingw/gcc -DCMAKE_INSTALL_PREFIX=../../executable`
 
 Using cygwin's gcc doesn't work very well with a ghc using mingw's gcc for obvious reasons
+
+Contributing
+------------
+
+If you can get this to build on any other platforms it would be super to add that know-how to this repo.
+
+Please feel free to submit any issues or pull requests. 
+
+I can be reached as 'jophish' on freenode if you have any questions.
