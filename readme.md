@@ -48,3 +48,9 @@ This will lead to a segmentation fault when running `executable.exe`.
 
 The `RUNTIME` modifier in the `install` command in `CMakeLists.txt` ensures that `add.lib` installed installed.
 
+Other platforms
+---------------
+
+It's possible to build the shared library using Mingw's gcc on Windows, follow the commands in `build.bat` but replace the first cmake command with `cmake ../ -G "Unix Makefiles" -DCMAKE_C_COMPILER=/path/to/mingw/gcc -DCMAKE_INSTALL_PREFIX=../../executable`
+
+Using cygwin's gcc doesn't work very well with a ghc using mingw's gcc for obvious reasons
