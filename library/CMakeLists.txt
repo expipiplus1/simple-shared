@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.12)
 
-project(simple-shared)
+project(simple-shared C)
 
 add_library(add SHARED add.c)
 
