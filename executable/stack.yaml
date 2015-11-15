@@ -1,0 +1,5 @@
+resolver: lts-3.13
+packages:
+- '.'
+extra-include-dirs: [.]
+extra-lib-dirs: [.]
