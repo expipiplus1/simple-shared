@@ -4,5 +4,5 @@ project(simple-shared C)
 
 add_library(add SHARED add.c)
 
-install(TARGETS add DESTINATION ".")
+install(TARGETS add RUNTIME DESTINATION ".")
 install(FILES add.h DESTINATION ".")
